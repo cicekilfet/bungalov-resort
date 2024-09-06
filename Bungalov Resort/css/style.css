@@ -1,0 +1,646 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Lato, sans-serif;
+    font-weight: 400;
+}
+
+.ml-5 {
+    margin-left: 28px;
+}
+.mr-5 {
+    margin-right: 28px;
+}
+
+ #container{
+    padding: 28px;
+ }
+a{
+    text-decoration: none;
+    
+}
+
+a:hover {
+    text-decoration: underline;
+    /* Üzerine gelindiğinde alt çizgi ekler */
+}
+
+
+#header{
+    
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*background-color: aqua;*/
+   
+}
+
+#brand a{
+    font-size: 36px;
+    color: red;
+    font-weight: 400;
+}
+
+#brand a:hover{
+    color: rgb(230, 0, 0);
+}
+
+#main-nav-items{
+    list-style-type: none;
+    display: flex;
+   
+}
+
+.main-nav-item a{
+    color: black;
+    font-weight: 400;
+    
+}
+
+.main-nav-item a:hover{
+    color: rgb(230, 0, 0);
+}
+
+.custom-button {
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: 300;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 20px;
+}
+
+.custom-button:hover {
+    opacity: 0.90;
+}
+
+#main_1{
+    width: 100%;
+    height: 700px;
+    background: linear-gradient(to top left, rgba(0,0,0,0.1),rgba(0,0,0,0.4)), url('../images/46_kategori.jpg' );
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+   
+}
+
+#main_3{
+    color: white;
+    width: 700px;
+    height: 100px;
+}
+
+#hosgeldiniz h2{
+    margin: 10px;
+    padding: 5px;
+    color: white;
+}
+#merhaba h3{
+    margin: 10px;
+    padding: 5px;
+    font-weight: 300;
+}
+
+#main_4 {
+    margin: 100px;
+    padding: 5px;
+}
+
+#erkRzv h3{
+    color: white;
+    font-weight: 300;
+}
+
+
+/*form*/
+
+.form-container {
+    background-color: white;
+    background-color: rgba(255, 255, 255, 0.85);
+        /* Hafif şeffaf beyaz arka plan */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 50px 30px;
+    padding: 60px;
+    max-width: 500px;
+    
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.form-input {
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.submit-button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+    opacity: 0.90;
+}
+
+#main_6{
+    
+}
+
+#main_7{
+    height: 120px;
+    width: 100%;
+    justify-content: space-between;
+    padding: 50px;
+   /* background-color: aqua;*/
+}
+
+#main_7 h1{
+    font-size: 36px;
+    color: red;
+    font-weight: 300;
+}
+#main_8 {
+    
+    width: 100%;
+    height: 1400px;
+    /*background-color: aquamarine;*/
+}
+
+.flex-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.image {
+    margin-right: 100px;
+    width: 400px;
+    height: 300px;
+    border-radius: 5px;
+}
+
+.wifi{
+    font-size: 20px;
+    line-height: 1.6;
+    padding-top: 70px;
+}
+.wifi h3{
+    font-weight: 400;
+    color: red;
+}
+
+.fa-solid{
+    color: #4CAF50;
+    font-size: 40px;
+}
+
+
+footer {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+    height: 300px;
+    
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+.footer-info p {
+    margin: 5px 0;
+    font-size: 25px;
+    padding-top: 20px;
+}
+
+.footer-icons {
+    margin-top: 10px;
+}
+
+.footer-icons a {
+    margin: 10px 70px;
+    display: inline-block;
+}
+
+.footer-icons img {
+    width: 30px;
+    height: 30px;
+}
+
+/* evlerimiz sayfası*/
+
+#main_9{
+   /* background-color: aqua;*/
+    height: 2300px;
+}
+
+.header_1 {
+    
+    padding: 20px;
+    text-align: center;
+}
+
+.header_1 h1 {
+    color: red;
+    font-size: 36px;
+    font-weight: 300;
+    margin-top: 50px;
+}
+
+.introduction {
+    padding: 20px;
+    text-align: center;
+}
+
+.introduction p{
+    font-size: 25px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto;
+    width: 100%;
+    height: 1700px;
+    
+}
+
+.content-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    
+}
+
+.content-item img {
+    width: 500px;
+    height: 400px;
+    margin-right: 20px;
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.content-item img:hover {
+    transform: scale(1.07);
+}
+
+.content-item p {
+    max-width: 600px;
+    font-size: 20px;
+    margin-left: 100px;
+}
+
+.scnk{
+    color: red;
+    font-weight: bold;
+}
+
+
+
+#main_10{
+    height: 880px;
+    /*background-color: aqua;*/
+    width: 100%;
+    margin-bottom: 70px;
+    margin-top: 50px;
+}
+
+header_2 {
+    padding: 20px;
+    text-align: center;
+}
+
+h2 {
+    margin: 0;
+    font-size: 36px;
+    color: red;
+    font-weight: 300;
+}
+
+#main_row{
+   
+}
+
+.image-gallery {
+    max-width: 800px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    gap: 40px;
+    
+}
+
+.row img {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    /* Resmin kapsayıcıya sığdırdı */
+    border-radius: 50%;
+}
+
+
+/*tesislerimiz*/
+
+#menu_11{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+header_3 {
+    color: red;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+h1 {
+    margin: 0;
+    font-size: 36px;
+    font-weight: 300;
+    
+}
+
+.image-gallery {
+    max-width: 1280px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+    /* Satırlar arasına boşluk ekler */
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    /* Resimler arasında 20px boşluk */
+}
+
+.image-container {
+    position: relative;
+    width: 400px;
+    height: 350px;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out;
+}
+.image-container img:hover{
+    transform: scale(1.07);
+}
+
+.image-container h2 {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    margin: 0;
+    padding: 5px 10px;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    font-size: 18px;
+    border-radius: 3px;
+} 
+
+/*bize ulaşın*/
+
+
+.center-content {
+    text-align: center;
+    height: 200px;
+    width: 100%;
+   /* background-color: red;*/
+    margin-top: 40px ;
+}
+.center-content h1{
+    color: red;
+}
+.center-content p{
+    font-size: 20px;
+    margin-top: 30px;
+
+}
+
+
+
+.background-image {
+    background-image: url('../images/3_855.jpeg');
+    /* Arka plan resminizin yolu */
+    background-size: cover;
+    /* Resmi sayfanın genişliğine yay */
+    background-position: center;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.contact-form {
+    background-color: rgba(255, 255, 255, 0.9);
+    /* Hafif şeffaf beyaz arka plan */
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 500px;
+    /* Formun genişliğini ayarlamak için */
+    width: 100%;
+    /* Formun genişliği ekranın %100'üne yayılacak ama max-width ile sınırlanacak */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    /* Formun çevresine hafif bir gölge ekler */
+}
+
+.contact-form h2 {
+    margin-top: 0;
+    text-align: center;
+    font-size: 30px;
+}
+
+.contact-form p {
+    margin: 5px 0;
+    font-size: 20px;
+    
+}
+
+.contact-form label {
+    display: block;
+    margin: 15px 0 5px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.contact-form input{
+    height: 35px;
+}
+
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.contact-form button:hover {
+    opacity: 0.90;
+}
+
+
+/*hizmetlerimiz*/
+
+#container_h {
+    width: 100%;
+    margin: auto;
+}
+
+#container_h h1 {
+   margin: 30px 100px ;
+   color: red;
+   font-size: 36px;
+   font-weight: 300;
+}
+
+.image-container_1 {
+
+    position: relative;
+    width: 650px;
+    height: 450px;
+    overflow: hidden;
+    margin-bottom: 50px;
+    margin-top: 50px;
+   
+}
+
+.image-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 30px 0 30px 0;
+    /* içerde ki yazının kenarlarının şekliyle oynadım */
+
+}
+
+.image_h {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+    border-radius: 50%;
+}
+
+.image-container_1:hover .image_h {
+    transform: scale(1.07);
+    /* Yakınlaştırma efekti */
+}
+
+.image-container_2 {
+
+    position: relative;
+    width: 650px;
+    height: 450px;
+    overflow: hidden;
+    margin-bottom: 50px;
+    margin-left: 400px;
+   
+
+}
+
+.image-container_2:hover .image_h {
+    transform: scale(1.07);
+    /* Yakınlaştırma efekti */
+}
+.image-container_3 {
+
+    position: relative;
+    width: 650px;
+    height: 450px;
+    overflow: hidden;
+    margin-bottom: 80px;
+    margin-left: 765px;
+    
+}
+
+.image-container_3:hover .image_h {
+    transform: scale(1.07);
+}
+
+/*google harita*/
+
+#iframe{
+    display: flex;
+    margin-bottom: 100px;
+    justify-content: center;
+    align-items: center;
+}
